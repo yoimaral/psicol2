@@ -1,5 +1,5 @@
 <script setup>
-import useEstudiantes from "../../components/estudiantesEdit";
+import useEstudiantes from "../../components/estudiantes";
 import { onMounted } from "vue";
 
 const { estudiante, getEstudiante, updateEstudiante, errors } =

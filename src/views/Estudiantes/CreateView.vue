@@ -1,6 +1,6 @@
 <script setup>
 import { reactive } from "vue";
-import useEstudiantes from "../../components/estudiantesCreate";
+import useEstudiantes from "../../components/estudiantes";
 
 const { storeEstudiante, errors } = useEstudiantes();
 

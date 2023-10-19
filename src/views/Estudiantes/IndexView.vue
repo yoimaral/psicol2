@@ -10,7 +10,7 @@ onMounted(() => getEstudiantes());
   <div class="mt-12">
     <div class="flex justify-end m-2 p-2">
       <RouterLink
-        :to="{ name: 'estudiantes' }"
+        :to="{ name: 'estudiantesCreate' }"
         class="px-4 py-2 bg-gray-500 hover:bg-gray-700 text-white rounded"
         >Crear Estudiante</RouterLink
       >
